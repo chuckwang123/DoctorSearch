@@ -18,6 +18,10 @@ API:
 
 5, Dapper
 
+6, Angular 2
+
+7, Typescript
+
 Unit Test:
 
 1, Moq
