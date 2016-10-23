@@ -1,0 +1,14 @@
+﻿<div id="grid" class="array-table">
+    <table data-toggle="table" class="table table-striped">
+        <thead>
+            <tr>
+                <td *ngFor="let col of columns"> {{col.descr }}</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let row of people">
+                <td *ngFor="let col of columns"> {{row[col.name] }}</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
